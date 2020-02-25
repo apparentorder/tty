@@ -8,9 +8,9 @@ title: Test!
 - [Tell me more.](about)
 - [bar](more)
 
-# Barz
+# Barzf
 
 {% for post in site.posts %}
-- [{{ post.date }} {{post.title}}]({{ post.url }})
+- [{{ post.date | date: "%Y-%m-%d" }} {{post.title}}]({{ post.url }})
 {% endfor %}
 
