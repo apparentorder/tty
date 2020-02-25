@@ -8,7 +8,7 @@ title: Test!
 - [Tell me more.](about)
 - [bar](more)
 
-# Bar
+# Barz
 
 {% for post in site.posts %}
 - [{{ post.date }} {{post.title}}]({{ post.url }})
