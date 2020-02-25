@@ -1,0 +1,15 @@
+---
+layout: default
+---
+<article>
+	<div>
+		<header>
+			<h3><a href="{{ page.url }}" title="Permalink for this post">{{ page.title }}</a></h3>
+			<h4>{{ page.date | date: "%Y-%m-%d" }}</h4>
+		</header>
+	</div>
+	<div>
+		{{ content }}
+	</div>
+</article>
+
